@@ -60,7 +60,7 @@ Here's a full demo of the stream and how it looks like when a new entry is produ
 
 <i>Might want to change the playback speed of the video to slow it down. The video was filmed for a presentation.</i>
 
-<iframe src="https://player.vimeo.com/video/873609642?h=19637177fd" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+https://github.com/jolenechong/yelpAIDashboard/assets/77100254/f51f8fd6-3db5-4252-baab-ee7ccb0b4bae
 
 So I first imported the libraries and the functions that I need within databricks. Then ,I loaded in my model and created a `prediction()` function.
 
@@ -69,7 +69,6 @@ We see that I'm listening to a Kafka topic on Confluent Cloud. We will produce d
 Now, let's enter our own review! Let's say that we loved the place, food and service, give it a business name. Once the data is processed and classified, we see it in the dashboard once again with food, service and ambience having high scores while price takes the mean as its not mentioned.
 
 We can also see how this looks in Confluent Cloud with 2 Kafka topics where 1 has the unprocessed one and the other has the processed data with more columns and the predicted column.
-
 
 ### Contact
 Jolene - [jolenechong7@gmail.com](mailto:jolenechong7@gmail.com) <br>
